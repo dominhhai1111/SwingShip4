@@ -19,6 +19,8 @@
 		E1A600E61BD77E5400D3C065 /* Ship2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E31BD77E5400D3C065 /* Ship2.png */; };
 		E1A600E71BD77E5400D3C065 /* sea1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E41BD77E5400D3C065 /* sea1.png */; };
 		E1A600E91BD77E5F00D3C065 /* Caribe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E81BD77E5F00D3C065 /* Caribe.mp3 */; };
+		E1A600EB1BD77FD900D3C065 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = E1A600EA1BD77FD900D3C065 /* Resources */; };
+		E1A600ED1BD7821C00D3C065 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A600EC1BD7821C00D3C065 /* sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		E1A600E31BD77E5400D3C065 /* Ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ship2.png; path = ../../Photo/Ship2.png; sourceTree = "<group>"; };
 		E1A600E41BD77E5400D3C065 /* sea1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sea1.png; path = ../../Photo/sea1.png; sourceTree = "<group>"; };
 		E1A600E81BD77E5F00D3C065 /* Caribe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Caribe.mp3; path = ../../../Downloads/Caribe.mp3; sourceTree = "<group>"; };
+		E1A600EA1BD77FD900D3C065 /* Resources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resources; sourceTree = "<group>"; };
+		E1A600EC1BD7821C00D3C065 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = ../../../Downloads/sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		E1A600B81BD77DF900D3C065 /* SwingShip4 */ = {
 			isa = PBXGroup;
 			children = (
+				E1A600EA1BD77FD900D3C065 /* Resources */,
+				E1A600EC1BD7821C00D3C065 /* sun.png */,
 				E1A600E11BD77E1300D3C065 /* Photo */,
 				E1A600BD1BD77DF900D3C065 /* AppDelegate.h */,
 				E1A600BE1BD77DF900D3C065 /* AppDelegate.m */,
@@ -227,7 +233,9 @@
 				E1A600E61BD77E5400D3C065 /* Ship2.png in Resources */,
 				E1A600CA1BD77DF900D3C065 /* LaunchScreen.xib in Resources */,
 				E1A600E51BD77E5400D3C065 /* sea2.png in Resources */,
+				E1A600EB1BD77FD900D3C065 /* Resources in Resources */,
 				E1A600C71BD77DF900D3C065 /* Images.xcassets in Resources */,
+				E1A600ED1BD7821C00D3C065 /* sun.png in Resources */,
 				E1A600E91BD77E5F00D3C065 /* Caribe.mp3 in Resources */,
 				E1A600E71BD77E5400D3C065 /* sea1.png in Resources */,
 			);
