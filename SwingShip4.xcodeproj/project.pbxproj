@@ -14,6 +14,11 @@
 		E1A600C71BD77DF900D3C065 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A600C61BD77DF900D3C065 /* Images.xcassets */; };
 		E1A600CA1BD77DF900D3C065 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A600C81BD77DF900D3C065 /* LaunchScreen.xib */; };
 		E1A600D61BD77DF900D3C065 /* SwingShip4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A600D51BD77DF900D3C065 /* SwingShip4Tests.m */; };
+		E1A600E01BD77E0C00D3C065 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A600DF1BD77E0C00D3C065 /* AVFoundation.framework */; };
+		E1A600E51BD77E5400D3C065 /* sea2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E21BD77E5400D3C065 /* sea2.png */; };
+		E1A600E61BD77E5400D3C065 /* Ship2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E31BD77E5400D3C065 /* Ship2.png */; };
+		E1A600E71BD77E5400D3C065 /* sea1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E41BD77E5400D3C065 /* sea1.png */; };
+		E1A600E91BD77E5F00D3C065 /* Caribe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A600E81BD77E5F00D3C065 /* Caribe.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		E1A600CF1BD77DF900D3C065 /* SwingShip4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShip4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A600D41BD77DF900D3C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A600D51BD77DF900D3C065 /* SwingShip4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShip4Tests.m; sourceTree = "<group>"; };
+		E1A600DF1BD77E0C00D3C065 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1A600E21BD77E5400D3C065 /* sea2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sea2.png; path = ../../Photo/sea2.png; sourceTree = "<group>"; };
+		E1A600E31BD77E5400D3C065 /* Ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ship2.png; path = ../../Photo/Ship2.png; sourceTree = "<group>"; };
+		E1A600E41BD77E5400D3C065 /* sea1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sea1.png; path = ../../Photo/sea1.png; sourceTree = "<group>"; };
+		E1A600E81BD77E5F00D3C065 /* Caribe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Caribe.mp3; path = ../../../Downloads/Caribe.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A600E01BD77E0C00D3C065 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 		E1A600AD1BD77DF900D3C065 = {
 			isa = PBXGroup;
 			children = (
+				E1A600DF1BD77E0C00D3C065 /* AVFoundation.framework */,
 				E1A600B81BD77DF900D3C065 /* SwingShip4 */,
 				E1A600D21BD77DF900D3C065 /* SwingShip4Tests */,
 				E1A600B71BD77DF900D3C065 /* Products */,
@@ -81,6 +93,7 @@
 		E1A600B81BD77DF900D3C065 /* SwingShip4 */ = {
 			isa = PBXGroup;
 			children = (
+				E1A600E11BD77E1300D3C065 /* Photo */,
 				E1A600BD1BD77DF900D3C065 /* AppDelegate.h */,
 				E1A600BE1BD77DF900D3C065 /* AppDelegate.m */,
 				E1A600C01BD77DF900D3C065 /* ViewController.h */,
@@ -117,6 +130,17 @@
 				E1A600D41BD77DF900D3C065 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A600E11BD77E1300D3C065 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E1A600E81BD77E5F00D3C065 /* Caribe.mp3 */,
+				E1A600E21BD77E5400D3C065 /* sea2.png */,
+				E1A600E31BD77E5400D3C065 /* Ship2.png */,
+				E1A600E41BD77E5400D3C065 /* sea1.png */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A600C51BD77DF900D3C065 /* Main.storyboard in Resources */,
+				E1A600E61BD77E5400D3C065 /* Ship2.png in Resources */,
 				E1A600CA1BD77DF900D3C065 /* LaunchScreen.xib in Resources */,
+				E1A600E51BD77E5400D3C065 /* sea2.png in Resources */,
 				E1A600C71BD77DF900D3C065 /* Images.xcassets in Resources */,
+				E1A600E91BD77E5F00D3C065 /* Caribe.mp3 in Resources */,
+				E1A600E71BD77E5400D3C065 /* sea1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
